@@ -2,7 +2,7 @@ import { FC, useEffect, useReducer } from 'react';
 import { useSnackbar } from 'notistack';
 
 import { Entry } from '../../interfaces';
-import {entriesApi} from '../../axios';
+import {entriesApi} from '../../qwe';
 
 import { EntriesContext , entriesReducer} from './';
 
