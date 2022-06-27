@@ -13,17 +13,17 @@ interface SeedEntry {
 export const seedData: SeedData = {
     entries: [
         {
-            description: 'Pendiente: node js and python which is good?',
+            description: 'Pendiente: aprender Next',
             status: 'pending',
             createdAt: Date.now(),
         },
         {
-            description: 'In-Progress: You cannot compair. Python is a programming language',
+            description: 'In-Progress: aprender typeScript',
             status: 'in-progress',
             createdAt: Date.now() - 1000000,
         },
         {
-            description: 'Finish: You cannot compair. Python is a programming language ',
+            description: 'Finish: aprender javaScript ',
             status: 'finished',
             createdAt: Date.now() - 100000,
         },
